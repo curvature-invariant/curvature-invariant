@@ -1,7 +1,14 @@
 # Curvature-Invariant Method
 ## Requirements
 
-You can setup all the environments and required dataset from (https://github.com/shikiw/SI-Adv)
+* tqdm >= 4.52.0
+* numpy >= 1.19.2
+* scipy >= 1.6.3
+* open3d >= 0.13.0
+* torchvision >= 0.7.0
+* scikit-learn >= 1.0
+
+## Datasets and Models
 
 #### Example Usage
 
