@@ -10,6 +10,11 @@
 
 ## Datasets and Models
 
+You can download the dataset from [ModelNet40](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip).
+
+Please download the [pretrained models](https://drive.google.com/file/d/1L25i0l6L_b1Vw504WQR8-Z0oh2FJA0G9/view?usp=sharing) and put them under "./checkpoint"
+
+
 #### Example Usage
 
 ##### Generate adversarial examples by attacking PointNet:
