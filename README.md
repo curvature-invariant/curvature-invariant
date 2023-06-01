@@ -10,14 +10,14 @@
 
 ## Datasets and Models
 
-You can download the dataset from [ModelNet40](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip).
+Please download the dataset from [ModelNet40](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip).
+Please download the [pretrained models](https://drive.google.com/file/d/1L25i0l6L_b1Vw504WQR8-Z0oh2FJA0G9/view?usp=sharing) and put them under ```./checkpoint```
+The pretrained models we use in the experiments are [PointNet](https://github.com/charlesq34/pointnet), [PointNet++](https://github.com/charlesq34/pointnet2), 
+[PointConv](https://github.com/DylanWusee/pointconv_pytorch), and [DGCNN](https://github.com/WangYueFt/dgcnn), 
 
-Please download the [pretrained models](https://drive.google.com/file/d/1L25i0l6L_b1Vw504WQR8-Z0oh2FJA0G9/view?usp=sharing) and put them under "./checkpoint"
+## Example Usage
 
-
-#### Example Usage
-
-##### Generate adversarial examples by attacking PointNet:
+### Generate adversarial examples by attacking PointNet:
 
 ```
 python main.py --attack_method curvature --surrogate_model pointnet_cls --target_model pointnet_cls
